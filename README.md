@@ -13,7 +13,7 @@ $ sudo cp monolith.conf /etc/yum/pluginconf.d/
 
 To take snapshot of the root file system
 ```
-$ sudo yum snapshot <snap_name>
+$ sudo yum commit <snap_name>
 ```
 To rollback to a previous snapshot
 ```
